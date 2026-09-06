@@ -27,15 +27,18 @@ Dual ESM/CJS, fully typed, and reduced-motion handling that survives SSR.
 ### Merged upstream
 
 **[styled-components/xstyled#428](https://github.com/styled-components/xstyled/pull/428)** —
-fixed a TypeScript inference bug in the `Space` type that was breaking IntelliSense.
-Found it while building a design system on top of xstyled.
+five lines in one file, fixing a TypeScript inference bug in the `Space` type that was
+breaking IntelliSense. Small is the point. xstyled is a 2.3k-star library and the one
+LUI's style props are built on, so I hit this while building the design system and
+fixed it upstream instead of working around it.
 
 **[galangel/react-tip-magic](https://github.com/galangel/react-tip-magic)** —
-upstreamed accessibility, focus-management and lifecycle fixes to Gal Angel's tour
-library, which we build on
+my largest upstream contribution, across three merged PRs: tour lifecycle and DOM
+agreement, accessibility, and step focus
 ([#15](https://github.com/galangel/react-tip-magic/pull/15),
 [#16](https://github.com/galangel/react-tip-magic/pull/16),
 [#27](https://github.com/galangel/react-tip-magic/pull/27)).
+The library is Gal Angel's, a colleague at Logz.io, and our onboarding runs on it.
 
 ---
 
