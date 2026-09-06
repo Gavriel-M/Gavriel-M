@@ -80,5 +80,5 @@ built on three.js.
 
 ---
 
-Israel, moving to Munich. EU citizen.
+Munich, Germany. EU citizen.
 [itsmor.com](https://itsmor.com) · [LinkedIn](https://linkedin.com/in/gavriel-mor)
